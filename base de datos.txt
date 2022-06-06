@@ -1,0 +1,11 @@
+create database prueba6;
+use prueba6;
+
+create table tarea(
+  codigo int auto_increment primary key,
+  nombre varchar(100)
+ 
+);
+
+INSERT INTO tarea(nombre) VALUES 
+('hacer tareas')
